@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+.dashboard-header {
+  border: 1px solid #ccc; /* Add a border */
+  padding: 10px; /* Add padding for better visual appearance */
+  text-align: left;
+  color: darkred;
+  background-color: cadetblue;/* Center-align text */
+}
+
+
+
+
+
+
+
+ul {
+  background-color: skyblue;
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  padding-top: 5%;
+  text-align: center;
+  box-sizing: border-box; /* Include padding in width and height */
+}
+
+ul li {
+  list-style: none;
+  padding-bottom: 30px;
+  font-size: 1.5vw; /* Responsive font size using viewport width */
+}
+
+ul li a {
+  color: black;
+  font-weight: bold;
+}
+
+.logout {
+  float: right;
+  padding-right: 30px;
+}
+
+ul li a:hover {
+  color: green;
+  text-decoration: none;
+}
