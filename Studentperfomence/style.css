@@ -1,0 +1,189 @@
+*
+{
+	padding: 1;
+	margin: 0;
+
+}
+nav
+{
+	position: fixed;
+	background-color: skyblue;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+}
+
+.logo
+{
+	font-size: 20px;
+	position: relative;
+	left: 5%;
+	color: black;
+	font-family: Bernard MT Condensed,sans-serif;
+	
+
+}
+
+ul
+{
+	 position: relative;
+	 float: right;
+	 margin: 10px;
+}
+
+ul li
+{
+	display: inline-block;
+	line-height: 70px;
+	margin: 5px;
+}
+
+.main_img
+{
+	width: 100%;
+	height:300px;
+}
+
+.section1
+{
+	position: 70px;
+}
+
+.img_text
+{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	color: gold;
+	background-color: transparent;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 35px;
+	font-family: Bernard MT Condensed,sans-serif;
+}
+
+.Welcome_img
+{
+	width: 400px;	
+	height: 500px;
+	left: 2%;
+}
+
+.container
+{
+	padding-top: 70px;
+}
+
+.Teacher1
+{
+	width: 90%;	
+	height: 200px;
+	left: 2%;
+}
+
+.label_text
+{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+
+}
+
+
+.input_deg
+{
+	width: 30%;
+	height: 40px;
+	border-radius: 25px;
+	border: 1 px solid blue;
+}
+
+
+.adm_int
+{
+	padding-top: 10px;
+}
+
+.input_txt
+{
+	width: 30%;
+	height: 120px;
+	border-radius: 25px;
+	border: 1px solid blue;
+}
+
+#submit
+{
+	position: relative;
+	width: 15%;
+	left: 5%;
+}
+
+footer
+{
+	background-color: black;
+	height: 20px;
+	width: 100%;
+}
+
+.footer_text
+{
+	text-align: center;
+	color: white;
+	top: 20%;
+	position: relative;
+}
+
+.adm
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form_deg
+{
+	padding-top: 200px;
+}
+
+.label_deg
+{
+	display: inline-block;
+	color: black;
+	width: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.login_form
+{
+	background-color: gray;
+	width: 400px;
+	padding-top: 70px;
+	padding-bottom: 70px; 
+}
+
+.title_deg
+{
+	background-color: deepskyblue;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.login_back
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+
+
+			

@@ -1,0 +1,83 @@
+
+
+
+
+
+.dashboard-header {
+  border: 1px solid #ccc; /* Add a border */
+  padding: 10px; /* Add padding for better visual appearance */
+  text-align: left;
+  color: darkred;
+  background-color: cadetblue;/* Center-align text */
+}
+
+.content{
+  text-align: center;
+  padding: 10px;
+}
+
+.table{
+  margin-left: 20px;
+  width:30%;
+  text-align: center;
+  position:;
+
+}
+
+    .back_button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: right;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid #001F3F; /* Dark blue border color */
+      border-radius: 5px;
+      color: #001F3F; /* Dark blue text color */
+      background-color: white;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .back_button:hover {
+      background-color: #001F3F; /* Dark blue background color on hover */
+      color: white;
+    }
+
+
+
+
+
+
+
+ul {
+  background-color: skyblue;
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  padding-top: 5%;
+  text-align: center;
+  box-sizing: border-box; /* Include padding in width and height */
+}
+
+ul li {
+  list-style: none;
+  padding-bottom: 30px;
+  font-size: 1.5vw; /* Responsive font size using viewport width */
+}
+
+ul li a {
+  color: black;
+  font-weight: bold;
+}
+
+.logout {
+  padding-top: 20px;
+  float: right;
+  padding-right: -10px;
+  
+}
+
+ul li a:hover {
+  color: green;
+  text-decoration: none;
+}
